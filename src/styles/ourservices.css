@@ -1,0 +1,288 @@
+/* Google font link */
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,100;9..40,200;9..40,300;9..40,500;9..40,600;9..40,700;9..40,800;9..40,900;9..40,1000&family=Montserrat:wght@100;200;300;400;500;600;700&family=STIX+Two+Text:ital,wght@0,400..700;1,400..700&display=swap');
+
+
+/* Global variables */
+
+:root{
+    --main: #ff0000;
+    --black: #000;
+    --white: #fff;
+}
+
+*::selection{
+    background: var(--main);
+    color: var(--white) !important;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none !important;
+    text-decoration: none !important;
+    scroll-behavior: smooth;
+    font-family: "STIX Two Text", serif;
+    transition:  .3s;
+}
+
+#preloader{
+    background: var(--black) url(../img/loader.gif) no-repeat center center ;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 2000;
+    background-size: 19%;
+}
+
+
+body{
+    background: linear-gradient(rgb(24, 22, 22), #6a6d6e);
+
+}
+
+.btn{
+    background: var(--main);
+    width: 150px;
+    border-radius: 10px;
+    color: #fff !important;
+    font-weight: bold;
+    margin: 5px 5px;
+}
+
+.btn:hover{
+    letter-spacing: 3px;
+}
+
+.content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.content h5{
+    font-weight: bold;
+    font-size: 35px;
+    color: #fff !important;
+}
+
+.content a{
+    font-weight: bold;
+    color: #fff !important;
+    transition: .3s ease-in-out;
+}
+
+.content a:hover{
+    letter-spacing: 2px;
+    color: var(--main) !important;
+
+}
+
+
+
+
+html::-webkit-scrollbar-thumb{
+    background: var(--main);
+}
+
+html::-webkit-scrollbar{
+    width: 10px;
+}
+
+html::-webkit-scrollbar-track{
+    background: rgb(82, 65, 65);
+}
+
+/* Navbar section start */
+
+.navbar {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    transition: 1s ease-in-out;
+    position: relative; /* Add position relative */
+    z-index: 1000; /* Add z-index to make sure it's above other content */
+}
+
+
+
+.navbar-brand{
+    font-weight: 600;
+    font-size: 2em;
+    padding-left: 100px;
+    color: #fff !important;
+}
+
+.navbar-brand span{
+    font-weight: 800;
+    font-size: 1.5em;
+    color: var(--main) !important;
+    text-align: center;
+
+}
+
+.navbar-nav {
+    padding-right: 33.15rem;
+}
+
+
+
+
+
+.navbar .nav-link{
+    color: #fff !important;
+    font-weight: bold;
+    margin-left: 29px;
+    cursor: pointer;
+}
+
+.navbar .nav-item .active{
+    background-color: var(--main);
+    border-radius: 5px;
+}
+
+.navbar .btn{
+    background-color: var(--main);
+    width: 90%;
+    border-radius: 5px;
+}
+
+/* Navbar section end */
+
+
+
+
+
+
+
+
+
+
+
+/* Our services section start */
+
+header h1{
+    margin-top: 5rem;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+main {
+    padding: 20px;
+}
+
+.services-section {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.service {
+    margin-bottom: 20px;
+}
+
+.title {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #fff;
+
+}
+
+.description {
+    margin-top: 10px;
+    text-align: center;
+    color: var(--white);
+}
+
+/* Our services section end */
+
+
+
+
+
+
+
+
+
+/* Footer section start */
+
+
+footer{
+    background: var(--black);
+    text-align: center;
+    padding: 40px;
+}
+
+.contact-info{
+    float: left;
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 63rem;
+    background-color: var(--black);
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+
+.contact-icon i{
+    color: var(--main);
+    border: 1px solid var(--main);
+    border-radius: 50%;
+    line-height: 50px;
+    font-size: 26px;
+    width: 50px;
+    margin-right: 12.1rem;
+}
+
+
+.contact-info p{
+    width: 295px;
+    color: white;
+    margin-top: 15px;
+
+}
+
+.contact-info a{
+    color: white !important;
+    text-decoration: none !important;
+    list-style: none !important;
+    
+}
+
+.contact-detail{
+    padding-right: 9rem;
+    margin-left: -5.9rem;
+}
+
+
+footer p{
+    font-weight: bold;
+    color: #fff !important;
+    text-decoration: none !important;
+}
+
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-social-links a,
+.footer-popular-links a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: 18px;
+}
+
+.footer-social-links a:hover,
+.footer-popular-links a:hover {
+    color: #ff0000; /* Change color on hover */
+}
+
+/* Footer section end */
+
+
+

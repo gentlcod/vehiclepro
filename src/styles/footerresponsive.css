@@ -1,0 +1,98 @@
+/* responsive footer for tablets and phones screens  */
+
+
+/* Footer section start */
+
+/* tablet screens */
+@media (min-width: 768px) and (max-width: 1024px){
+   
+    .contact-info {
+        width: 100% !important;
+        padding-left: 0 !important;
+        flex-direction: column !important;
+        display: flex !important;
+        text-align: center !important;
+    }
+
+    .contact-info p {
+        width: auto !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+
+    .contact-info .contact-detail{
+        margin-left: 9rem !important;
+    }
+
+    .footer-content .footer-popular-links a{
+        display: flex !important;
+        margin: 1rem !important;
+        flex-direction: column !important;
+        margin-left: -79rem !important; 
+    }
+
+    .footer-content .footer-social-links,
+    .footer-content .footer-popular-links{
+        margin-bottom: 3.5rem !important;
+    }
+
+    .footer-content .footer-social-links a{
+        margin: 1rem !important;
+        margin-top: 7rem !important; 
+    }
+
+
+}
+
+/* phone screens */
+@media (max-width: 768px){
+        .contact-info {
+            width: 100% !important;
+            padding-left: 0 !important;
+            text-align: center !important;
+            display: flex !important;
+            text-align: center !important;
+            height: 580px !important;
+        }
+    
+        .contact-info p {
+            width: auto !important;
+            margin-left: auto !important;
+            margin-right: auto !important;
+
+        }
+
+        .contact-info .contact-detail{
+            margin-left: 9rem !important;
+            margin-top: -.1rem !important;
+            margin-bottom: 1rem !important;
+            
+        }
+
+        .contact-info .contact-item .contact-icon i{
+            margin-bottom: 1.3rem !important;
+        }
+
+       
+
+        .footer-content .footer-popular-links a{
+            display: flex !important;
+            margin: -7rem !important;
+            flex-direction: column !important;
+            margin-left: -60.9rem !important; 
+            margin-top: -7rem !important;
+        }
+
+        .footer-content .footer-social-links,
+        .footer-content .footer-popular-links{
+            margin-bottom: 5rem !important;
+        }
+
+        .footer-content .footer-social-links a{
+            padding-left: 5.9rem !important;
+        }
+}
+
+
+
+/* Footer section end */

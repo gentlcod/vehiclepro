@@ -1,0 +1,656 @@
+/**********
+***** Home ******
+**********
+/
+
+/* Header section start */
+
+/* Media Queries for Tablet (1024px) */
+@media screen and (max-width: 1024px) {
+    .header .row {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .header .text-section h3 {
+        font-size: 33px;
+    }
+
+    .header .row p {
+        display: none;
+    }
+
+    .header .col-sm-7 img {
+        margin-left: 0;
+        margin-top: -2.9rem;
+        width: 90%;
+    }
+
+    .header .text-section {
+        margin-top: 1rem;
+        text-align: center;
+    }
+
+    .header .button-section{
+        margin-top: 1rem;
+        margin-left: 1rem;
+    }
+}
+
+/* Media Queries for Mobile (728px) */
+@media screen and (max-width: 728px) {
+    .header {
+        padding: 30px;
+    }
+
+    .header .text-section h3 {
+        font-size: 33px;
+    }
+
+    .header .col-sm-7 img {
+        width: 100%;
+    }
+
+    .header .col-sm-7 img {
+        margin-left: 0;
+        margin-top: -1.9rem;
+        width: 90%;
+    }
+    .header .button-section{
+        margin-top: 1rem;
+        margin-right: -9rem;
+    }
+}
+
+/* Header section end */
+
+
+
+
+
+
+
+
+
+
+
+/* Popular car section start */
+
+/* Media Queries for Tablet (1024px) */
+@media screen and (max-width: 1024px) {
+    .popular .box {
+        padding: 30px 25px;
+        width: 100%; /* Set width to 100% for mobile */
+        height: 100px;
+    }
+
+    .popular .box img{
+        width: 300px !important;
+    }
+}
+
+/* Media Queries for Mobile (728px)  */ 
+@media screen and (max-width: 728px) {
+    .popular .box { 
+        width: 100%; /* Set width to 100% for mobile */
+        height: 100px;
+    }
+
+    .popular .box img{
+        width: 500px !important;
+    }
+
+    .popular{
+        padding: 30px 20px;
+    }
+}
+/* Popular car section end */
+
+
+
+
+
+
+
+
+/* Offer section start */
+
+/* Media Queries for Tablets (1024px) */
+@media screen and (max-width: 1024px) {
+    .offer{
+        margin-top: -7.9rem;
+       }
+
+    .offer .row {
+        width: 950px;
+        flex-direction: column; /* Change flex direction to column for tablets */
+    }
+
+    .offer .col-sm-5 {
+        margin-bottom: 30px; /* Add some spacing between the boxes */
+    }
+
+   
+
+    .offer .col-sm-5  .btn{
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+   
+
+   .offer{
+    margin-top: -13rem;
+   }
+
+    .offer .last{
+        margin-left: -.01rem; 
+    }
+
+    .offer .col-sm-5  .btn{
+        width: 200px;
+    }
+
+    
+}
+
+/* Offer section end */
+
+
+
+
+
+
+/* Latest car section start */
+
+/* Media Queries for Tablets (1024px) */
+@media screen and (max-width: 1024px) {
+    .latest_car .row {
+        flex-direction: column; /* Change flex direction to column for tablets */
+        align-items: center; /* Center align items in column layout */
+    }
+    
+    .latest_car .box {
+        width: 400px; /* Adjust box width for tablets */
+        margin-bottom: 30px; /* Add some spacing between the boxes */
+        margin-left: -7.5rem;
+    }
+}
+
+/* Media Queries for Mobile Devices (768px) */
+@media screen and (max-width: 768px) {
+    .latest_car .box {
+        width: 370px; /* Adjust box width for mobile devices */
+    }
+
+   
+}
+
+/* Latest car section end */
+
+
+
+
+
+
+
+
+/* Car parts section start */
+
+/* Media Queries for Tablets (1024px) */
+@media  (max-width: 1024px) {
+    .car_parts .box {
+        width: 300px; 
+        height: auto;
+    }
+
+    #carPartsSection .custom_car_parts img{
+        width: 190px !important;
+    }
+
+    #carPartsSection .custom_car_parts .box{
+        height: 270px !important;
+    }
+
+    .car_parts .col-sm-3 .custom-box{
+        padding: 50px 90px;
+        margin-left: 5rem;
+       }
+    
+       .car_parts .col-sm-3 .custom-box .svgContent{
+        margin-left: -3rem;
+       }
+    
+       .car_parts .col-sm-3 .custom-box svg{
+        margin-left: -3rem;
+       }
+
+    .car_parts .box .row .col-sm-9 h4{
+        margin-left: 1rem;
+        font-size: 25px;
+    }
+
+    .car_parts .box .row .col-sm-9 p{
+        font-size: 9px;
+        margin-left: 1rem;
+
+    }
+
+    .car_parts .box .row .col-sm-9 .btn{
+        margin-top: -1.1rem;
+    }
+
+
+    .car_parts .box img {
+        width: 1000px; /* Make images responsive for tablets */
+        height: auto;
+    }
+}
+
+/* Media Queries for Mobile Devices (768px) */
+@media screen and (max-width: 768px) {
+    .car_parts .custom_car_parts {
+        height: auto; /* Remove fixed height for mobile devices */
+        padding: 20px; /* Adjust padding for smaller screens */
+    }
+    
+   .car_parts .col-sm-3 .custom-box{
+    padding: 60px 90px;
+   }
+
+   .car_parts .col-sm-3 .custom-box{
+    padding: 60px 90px;
+    margin-left: -.001rem;
+   }  
+
+   #carPartsSection .custom_car_parts img{
+    width: 155px !important;
+}
+
+   .car_parts .col-sm-3 .custom-box .svgContent{
+    margin-left: -3rem;
+   }
+
+   .car_parts .col-sm-3 .custom-box svg{
+    margin-left: -3rem;
+   }
+    
+    .car_parts .carousel-item .box h4 {
+        font-size: 30px; /* Reduce font size for heading on mobile */
+    }
+    
+    .car_parts .carousel-item .box p {
+        font-size: 10px; /* Reduce font size for paragraph on mobile */
+    }
+}
+
+/* Car parts section end */
+
+
+
+
+
+
+
+/* Latest new section start */
+
+/* Media Queries for Tablets (1024px) */
+@media screen and (max-width: 1024px) {
+    .latest_news .box {
+        height: auto; /* Remove fixed height for tablets */
+    }
+}
+
+/* Media Queries for Mobile Devices (768px) */
+@media screen and (max-width: 768px) {
+    .latest_news .box {
+        height: auto; /* Remove fixed height for mobile devices */
+        margin-top: 20px; /* Adjust margin for smaller screens */
+    }
+    
+    .latest_news .boxcontent h6 {
+        font-size: 20px; /* Reduce font size for date on mobile */
+    }
+    
+    .latest_news .boxcontent p {
+        font-size: 10px; /* Reduce font size for content on mobile */
+    }
+}
+
+/* Latest new section end */
+
+
+
+
+
+
+
+
+
+
+/* Testimonials section start */
+
+/* Media Queries for Tablets (1024px) */
+@media screen and (max-width: 1024px) {
+    .testimonials .box {
+        margin-top: 50px; /* Adjust margin for smaller screens */
+    }
+
+    .testimonials .mid {
+        margin-top: 0; /* Remove margin top for the middle box */
+    }
+}
+
+/* Media Queries for Mobile Devices (768px) */
+@media screen and (max-width: 768px) {
+    .testimonials .box {
+        border-radius: 20px; /* Reset border-radius for mobile */
+        margin-top: 20px; /* Adjust margin for smaller screens */
+    }
+
+    .testimonials .box img {
+        height: 100px; /* Reduce image height for mobile */
+        width: 100px; /* Reduce image width for mobile */
+    }
+
+    .testimonials .box p {
+        font-size: 10px; /* Reduce font size for content on mobile */
+    }
+
+    .testimonials .box .fas {
+        font-size: 20px; /* Reduce icon size for mobile */
+    }
+
+    .testimonials .box h6 {
+        font-size: 20px; /* Reduce heading size for mobile */
+    }
+}
+
+/* Testimonials section end */
+
+
+
+
+/* About section starts */
+@media (max-width: 1024px) {
+    .about_us_page .about_us_main_section img {
+        margin-top: 3.9rem;
+    }
+
+    .about_us_page .about_us_main_section h6{
+        margin-top: -3rem;
+        margin-left: -19rem;
+        font-size: 29px;
+    }
+
+    .about_us_page .about_us_main_section h6 span{
+        font-size: 29px;
+    }
+
+    .about_us_main_section p {
+        text-align: center;
+        margin-top: -7rem;
+        
+    }
+    .about_us_page .about_us_main_section img{
+        float: right;
+        margin-right: 3.9rem;
+        
+    }
+
+    .about_us_main_section .btn {
+        margin: auto;
+        display: block;
+    }
+}
+
+@media (max-width: 768px) {
+    .about_us_page .about_us_main_section img {
+        margin-top: 3.9rem;
+    }
+
+    .about_us_page .about_us_main_section h6{
+        margin-top: -3rem;
+        margin-left: -19rem;
+        font-size: 29px;
+    }
+
+    .about_us_page .about_us_main_section h6 span{
+        font-size: 29px;
+    }
+
+    .about_us_main_section p {
+        text-align: center;
+        margin-top: -7rem;
+        
+    }
+
+    .about_us_page .about_us_main_section img{
+        float: right;
+        margin-right: 5rem;
+        
+    }
+
+    .about_us_main_section .btn {
+        margin: auto;
+        display: block;
+    }
+}
+
+/* About section ends */
+
+
+
+
+/* contact setion starts */
+
+/* Media Queries for Tablets (1024px) */
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    .contactus_main_page .col-sm-5 h6 {
+        font-size: 30px; /* Adjust font size as needed */
+    }
+
+    .contactus_main_page .offset-sm-2 form input {
+        width: 80%; /* Adjust width as needed */
+        height: 30px;
+    }
+
+    
+
+    .contactus_main_page .col-sm-5 img{
+        margin-top: 5rem;
+        height: 170px;
+    }
+}
+
+/* Media Queries for phone (768px) */
+@media (max-width: 768px) {
+    .contactus_main_page {
+        margin: 20px auto; /* Adjust margin as needed */
+    }
+    
+    .contactus_main_page .col-sm-5 h6 {
+        font-size: 24px; /* Adjust font size as needed */
+    }
+    
+    .contactus_main_page .offset-sm-2 form input, 
+    .contactus_main_page .offset-sm-2 form textarea {
+        width: 90%; /* Adjust width as needed */
+    }
+
+    .contactus_main_page .col-sm-5 img{
+        margin-top: 5rem;
+        height: 170px;
+    }
+
+    .contactus_main_page form .btn{
+        margin-bottom: 2rem ;
+    }
+
+}
+
+
+
+/* contact setion ends */
+/* Location section start */
+.our_location h5 {
+    margin-left: 2rem; /* Adjust margin for smaller screens */
+    font-size: 28px; /* Reduce font size for smaller screens */
+}
+
+iframe {
+    width: 100%; /* Make the map responsive */
+    height: 400px; /* Set a fixed height for better display */
+}
+
+/* Media Queries for Tablets (768px) */
+@media screen and (max-width: 768px) {
+    .our_location h5 {
+        margin-left: 1rem; /* Further adjust margin for smaller screens */
+        font-size: 24px; /* Further reduce font size for smaller screens */
+    }
+}
+
+/* Media Queries for Mobile Devices (576px) */
+@media screen and (max-width: 576px) {
+    .our_location h5 {
+        margin-left: 0.5rem; /* Further adjust margin for smaller screens */
+        font-size: 20px; /* Further reduce font size for smaller screens */
+    }
+}
+/* Location section end */
+
+
+/* cars main section starts */
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .car_main_page span{
+        margin-left: 7rem;
+    }
+
+
+    .car_main_page .col-sm-4 {
+        flex: 0 0 70%;
+        max-width: 70%;
+        margin-left: 7rem !important;
+    }
+
+    .car_main_page .box{
+        height: 500px;
+    }
+}
+
+@media (max-width: 768px) {
+    .car_main_page .col-sm-4 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .car_main_page .box{
+        height: 517px;
+    }
+}
+
+/* cars main section ends */
+
+
+
+
+/* Main buy section starts */
+
+@media (max-width: 768px) and (max-width: 1024px) {
+    .buy_main_header .offset-sm-2 {
+        margin-top: -5rem !important;
+        text-align: center;
+    }
+
+
+    .buy_main_header img {
+        margin-top: -7rem;
+    }
+
+    .buy_main_header .offset-sm-2 .btn{
+        margin-top: 1rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .buy_main_header .offset-sm-2 {
+        margin: 20px auto;
+        margin-top: -5rem !important;
+    }
+
+    .buy_main_header .offset-sm-2 .btn{
+        margin-left: -11rem;
+        margin-top: 1rem;
+    }
+}
+
+
+/* Main buy section ends */
+
+
+/* FAQ markup section starts */
+
+/* For screens up to 768px (phones) */
+@media (max-width: 768px) {
+    .faq h2 {
+        font-size: 28px;
+        margin-top: 9rem;
+    }
+
+    .faq p {
+        font-size: 14px;
+    }
+
+    .panel-group{
+        width: 97%;
+        margin-left: 1.9rem;
+    }
+
+   
+
+    #accordian .panel-title a {
+        font-size: 18px;
+    }
+
+    #accordian .panel-body {
+        font-size: 12px;
+    }
+
+    .freeimage img {
+        margin-top: 5px;
+        margin-left: 15.9rem !important;
+        height: auto;
+        width: 50%;
+    }
+}
+
+/* For screens between 768px and 1024px (tablets) */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .faq h2 {
+        margin-top: 9rem;
+        font-size: 30px;
+    }
+
+   
+
+    .freeimage img {
+        margin-top: -5px;
+        margin-left: 19rem;
+        height: auto;
+        width: 50%;
+    }
+}
+
+/* FAQ markup section ends */
+
+
+
+
+
+
+
+
